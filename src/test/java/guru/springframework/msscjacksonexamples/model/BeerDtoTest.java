@@ -32,5 +32,6 @@ class BeerDtoTest extends BaseTest {
         BeerDto dto = objectMapper.readValue(json, BeerDto.class);
 
         System.out.println(dto);
+
     }
 }
